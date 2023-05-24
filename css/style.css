@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(images/background/33.gif);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+.characters{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#ch1{
+    width: 200px;
+}
+#ch2{
+    width: 200px;
+}
+.all{
+    width: 550px;
+}
+#keyOne{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 20%;
+    margin: 28px 330px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 2px 10px;
+    /* transition: all ease-in-out 2sec; */
+}
+#keyTwo{
+    display: none;
+    width: 20%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 28px 330px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 2px 10px;
+    /* transition: all ease-in-out 2sec; */
+}
+.return {
+    width: 120px;
+    float: right;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.return:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.buttons {
+    /* width: 50%; */
+    margin: 5px auto;
+}
+.main-btn{
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 6px 160px;
+}
+.main-btn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.span{
+    color: red;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
